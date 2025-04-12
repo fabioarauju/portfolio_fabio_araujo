@@ -1,0 +1,19 @@
+/* body color */
+
+:root {
+    --main-bg-color: #f5f5dc;
+    --main-txt-color: #4e342e;
+    --main-details: #e07a5f;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+.my-color-font{
+    color: var(--main-txt-color);
+}
+
+.my-details{
+    color:var(--main-details);
+}
