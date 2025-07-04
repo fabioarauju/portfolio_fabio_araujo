@@ -1,275 +1,525 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fabio Araujo</title>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!-- header da página -->
-        <nav class="navbar navbar-expand-lg mb-4">
-            <div class="container-fluid px-2">
-                <a class="navbar-brand fs-2" href="#">Fabio Araújo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sobre mim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Habilidades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projetos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contatos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- About us -->
-        <h2 id="aboutUs">Sobre mim</h2>
-        <p class="lead">
-            Sou Fábio Araújo, tenho 23 anos e estou no primeiro semestre de Sistemas de Informação na FIAP. Estudei por
-            dois anos Engenharia Computacional na UFJF, onde desenvolvi uma base sólida em lógica e programação.
-            Atualmente, estou focado em me tornar um desenvolvedor Fullstack. Tenho estudado
-            HTML, CSS, JavaScript e frameworks como <strong>React</strong>, <strong>Vue.js</strong>,
-            <strong>Nuxt.js</strong>, <strong>Next.js</strong> e <strong>Tailwind CSS</strong>. Busco evoluir com
-            projetos práticos e oportunidades reais no mundo da programação.
-        </p>
-
-        <!-- Skills -->
-        <h2 id="skills">Habilidades</h2>
-        <div class="row skills-row justify-content-center align-items-center g-2">
-            <div class="row skills-row justify-content-center align-items-center g-2">
-                <!-- HTML5 -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"
-                        width="64" height="64" title="HTML5" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">HTML5</span>
-                </div>
-                <!-- CSS3 -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
-                        width="64" height="64" title="CSS3" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">CSS3</span>
-                </div>
-                <!-- JavaScript -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                        alt="JavaScript" width="64" height="64" title="JavaScript" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">JavaScript</span>
-                </div>
-                <!-- Bootstrap -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                        alt="Bootstrap" width="64" height="64" title="Bootstrap" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">Bootstrap</span>
-                </div>
-                <!-- React -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
-                        width="64" height="64" title="React" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">React</span>
-                </div>
-                <!-- Vue.js -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js"
-                        width="64" height="64" title="Vue.js" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">Vue.js</span>
-                </div>
-                <!-- Nuxt.js -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
-                        alt="Nuxt.js" width="64" height="64" title="Nuxt.js" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">Nuxt.js</span>
-                </div>
-                <!-- Next.js -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                        alt="Next.js" width="64" height="64" title="Next.js" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">Next.js</span>
-                </div>
-                <!-- Tailwind CSS -->
-                <div class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2">
-                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS"
-                        width="64" height="64" title="Tailwind CSS" />
-                    <span class="mt-2 text-center" style="font-size: 1rem;">Tailwind CSS</span>
-                </div>
-            </div>
+      <!-- header da página -->
+      <nav class="navbar navbar-expand-lg mb-4">
+        <div class="container-fluid px-2">
+          <a class="navbar-brand fs-2" href="#">Fabio Araújo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Sobre mim</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contatos</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <h2 id="projects">Projetos</h2>
-        <div class="row g-4">
-            <!-- Primeiro projeto -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div
-                    class="card p-3 h-100 d-flex flex-column justify-content-between align-items-center shadow-sm project-card">
-                    <img class="img-thumbnail mb-2" src="/images/volpe.png" alt="Imagem de prévia do site Volpebits"
-                        style="border-radius: 14px; object-fit: cover; height: 160px; width: 100%;">
-                    <h3 class="fs-4 mt-2 mb-1 text-center fw-bold">Volpe</h3>
-                    <div class="mb-2">
-                        <span class="badge bg-primary">HTML</span>
-                        <span class="badge bg-info text-dark">CSS</span>
-                        <span class="badge bg-warning text-dark">JavaScript</span>
-                        <span class="badge bg-success">Vercel</span>
-                        <span class="badge bg-dark">Bootstrap</span>
-                    </div>
-                    <p class="px-2 text-center small">Projeto desenvolvido no primeiro ano do curso de Sistemas de
-                        Informação (FIAP). A proposta é criar uma newsletter com foco em jogos brasileiros. O site está
-                        em constante evolução, com atualizações mensais.</p>
-                    <div class="d-flex gap-2 mt-auto">
-                        <a target="_blank" href="https://volpe-opal.vercel.app/"
-                            class="btn btn-primary btn-sm d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-box-arrow-up-right me-1" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M6.364 13.657a.5.5 0 0 1-.708 0l-5.657-5.657a.5.5 0 0 1 0-.708l5.657-5.657a.5.5 0 0 1 .708.708L1.707 7.5H15.5a.5.5 0 0 1 0 1H1.707l4.657 4.657a.5.5 0 0 1 0 .708z" />
-                            </svg>
-                            Site
-                        </a>
-                        <a target="_blank" href="https://github.com/volpebits/Old_Volpe"
-                            class="btn btn-outline-dark btn-sm d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-github me-1" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Segundo projeto -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div
-                    class="card p-3 h-100 d-flex flex-column justify-content-between align-items-center shadow-sm project-card">
-                    <img class="img-thumbnail mb-2" src="/images/saferoute.png"
-                        alt="Imagem de prévia do site bar da clarice"
-                        style="border-radius: 14px; object-fit: cover; height: 160px; width: 100%;">
-                    <h3 class="fs-4 mt-2 mb-1 text-center fw-bold">SafeRoute</h3>
-                    <div class="mb-2">
-                        <span class="badge bg-primary">HTML</span>
-                        <span class="badge bg-info text-dark">CSS</span>
-                    </div>
-                    <p class="px-2 text-center small">SafeRoute é um protótipo feito para o Global Solutions que deve ter continuidade ao longo do ano. É uma aplicação web criada para ajudar comunidades afetadas por enchentes, oferecendo mapas interativos das áreas de risco, rotas seguras de evacuação, localização de abrigos próximos e alertas em tempo real. O sistema é acessível, responsivo e inclui recursos de inclusão, como tradução para Libras. Nosso foco é salvar vidas, facilitando decisões rápidas e seguras em situações de emergência.</p>
-                    <div class="d-flex gap-2 mt-auto">
-                        <a target="_blank" href="https://safe-route-two.vercel.app/"
-                            class="btn btn-primary btn-sm d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-box-arrow-up-right me-1" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M6.364 13.657a.5.5 0 0 1-.708 0l-5.657-5.657a.5.5 0 0 1 0-.708l5.657-5.657a.5.5 0 0 1 .708.708L1.707 7.5H15.5a.5.5 0 0 1 0 1H1.707l4.657 4.657a.5.5 0 0 1 0 .708z" />
-                            </svg>
-                            Site
-                        </a>
-                        <a target="_blank" href="https://github.com/volpebits/safeRoute"
-                            class="btn btn-outline-dark btn-sm d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-github me-1" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Terceiro projeto -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div
-                    class="card p-3 h-100 d-flex flex-column justify-content-between align-items-center shadow-sm project-card">
-                    <img class="img-thumbnail mb-2" src="/images/volpe2.png" alt="Imagem de prévia do site Volpebits"
-                        style="border-radius: 14px; object-fit: cover; height: 160px; width: 100%;">
-                    <h3 class="fs-4 mt-2 mb-1 text-center fw-bold">Volpe</h3>
-                    <div class="mb-2">
-                        <span class="badge bg-dark">Next.js</span>
-                        <span class="badge bg-info text-dark">Tailwind</span>
-                        <span class="badge bg-warning text-dark">JavaScript</span>
-                        <span class="badge bg-success">Vercel</span>
-                        <span class="badge bg-primary">React</span>
-                    </div>
-                    <p class="px-2 text-center small">Atualmente, o Projeto Volpe está em uma nova fase, utilizando
-                        Next.js, Tailwind CSS e outras tecnologias modernas para garantir alto desempenho,
-                        responsividade e acessibilidade. O projeto evoluiu para oferecer uma experiência de usuário mais
-                        fluida e adaptada a diferentes dispositivos, mantendo o foco na divulgação de jogos brasileiros
-                        por meio de uma newsletter dinâmica.</p>
-                    <div class="d-flex gap-2 mt-auto">
-                        <a target="_blank" href="https://volpe-eight.vercel.app/"
-                            class="btn btn-primary btn-sm d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-box-arrow-up-right me-1" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M6.364 13.657a.5.5 0 0 1-.708 0l-5.657-5.657a.5.5 0 0 1 0-.708l5.657-5.657a.5.5 0 0 1 .708.708L1.707 7.5H15.5a.5.5 0 0 1 0 1H1.707l4.657 4.657a.5.5 0 0 1 0 .708z" />
-                            </svg>
-                            Site
-                        </a>
-                        <a target="_blank" href="https://github.com/volpebits/newVolpe"
-                            class="btn btn-outline-dark btn-sm d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-github me-1" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <!-- About us -->
+      <h2 id="aboutUs">Sobre mim</h2>
+      <p class="lead">
+        Sou Fábio Araújo, tenho 23 anos e estou no primeiro semestre de Sistemas
+        de Informação na FIAP. Estudei por dois anos Engenharia Computacional na
+        UFJF, onde desenvolvi uma base sólida em lógica e programação.
+        Atualmente, estou focado em me tornar um desenvolvedor Fullstack. Tenho
+        estudado HTML, CSS, JavaScript e frameworks como <strong>React</strong>,
+        <strong>Vue.js</strong>, <strong>Nuxt.js</strong>,
+        <strong>Next.js</strong> e <strong>Tailwind CSS</strong>. Busco evoluir
+        com projetos práticos e oportunidades reais no mundo da programação.
+      </p>
 
-        <h2 id="contacts">Contatos</h2>
-        <div class="row pb-3 g-3 mx-auto">
-            <div class="col-12 col-sm-6 col-md-3">
-                <a target="_blank" class="contact-link" href="https://www.instagram.com/fabio_arauju/">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" width="32" height="32"
-                        class="contact-icon" alt="Instagram"
-                        style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); padding:6px; border-radius:50%;" />
-                    Instagram
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <a target="_blank" class="contact-link" href="https://github.com/fabioarauju">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" width="32" height="32"
-                        class="contact-icon" alt="Github"
-                        style="background:#fff; padding:6px; border-radius:50%; border:1px solid #eee;" />
-                    Github
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <a target="_blank" class="contact-link" href="www.linkedin.com/in/dev-fabio-araujo">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" width="32" height="32"
-                        class="contact-icon" alt="Linkedin"
-                        style="background:#0077B5; padding:6px; border-radius:50%;" />
-                    Linkedin
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <a class="contact-link" href="mailto:devfabioaraujo@gmail.com">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" width="32" height="32"
-                        class="contact-icon" alt="E-mail"
-                        style="background:#fff; padding:6px; border-radius:50%; border:1px solid #eee;" />
-                    E-mail
-                </a>
-            </div>
+      <!-- Skills -->
+      <h2 id="skills">Habilidades</h2>
+      <div class="row skills-row justify-content-center align-items-center g-2">
+        <div
+          class="row skills-row justify-content-center align-items-center g-2"
+        >
+          <!-- HTML5 -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+              width="64"
+              height="64"
+              title="HTML5"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem">HTML5</span>
+          </div>
+          <!-- CSS3 -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+              width="64"
+              height="64"
+              title="CSS3"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem">CSS3</span>
+          </div>
+          <!-- JavaScript -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+              width="64"
+              height="64"
+              title="JavaScript"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem"
+              >JavaScript</span
+            >
+          </div>
+          <!-- Bootstrap -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              alt="Bootstrap"
+              width="64"
+              height="64"
+              title="Bootstrap"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem"
+              >Bootstrap</span
+            >
+          </div>
+          <!-- React -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+              width="64"
+              height="64"
+              title="React"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem">React</span>
+          </div>
+          <!-- Vue.js -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+              alt="Vue.js"
+              width="64"
+              height="64"
+              title="Vue.js"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem">Vue.js</span>
+          </div>
+          <!-- Nuxt.js -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+              alt="Nuxt.js"
+              width="64"
+              height="64"
+              title="Nuxt.js"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem"
+              >Nuxt.js</span
+            >
+          </div>
+          <!-- Next.js -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+              alt="Next.js"
+              width="64"
+              height="64"
+              title="Next.js"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem"
+              >Next.js</span
+            >
+          </div>
+          <!-- Tailwind CSS -->
+          <div
+            class="col-4 col-sm-3 col-md-2 d-flex flex-column align-items-center my-2"
+          >
+            <img
+              src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+              alt="Tailwind CSS"
+              width="64"
+              height="64"
+              title="Tailwind CSS"
+            />
+            <span class="mt-2 text-center" style="font-size: 1rem"
+              >Tailwind CSS</span
+            >
+          </div>
         </div>
+      </div>
+
+      <h2 id="projects">Projetos</h2>
+      <div class="row g-4">
+        <!-- Primeiro projeto -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div
+            class="card p-3 h-100 d-flex flex-column justify-content-between align-items-center shadow-sm project-card"
+          >
+            <img
+              class="img-thumbnail mb-2"
+              src="/images/volpe.png"
+              alt="Imagem de prévia do site Volpebits"
+              style="
+                border-radius: 14px;
+                object-fit: cover;
+                height: 160px;
+                width: 100%;
+              "
+            />
+            <h3 class="fs-4 mt-2 mb-1 text-center fw-bold">Volpe</h3>
+            <div class="mb-2">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-info text-dark">CSS</span>
+              <span class="badge bg-warning text-dark">JavaScript</span>
+              <span class="badge bg-success">Vercel</span>
+              <span class="badge bg-dark">Bootstrap</span>
+            </div>
+            <p class="px-2 text-center small">
+              Projeto desenvolvido no primeiro ano do curso de Sistemas de
+              Informação (FIAP). A proposta é criar uma newsletter com foco em
+              jogos brasileiros. O site está em constante evolução, com
+              atualizações mensais.
+            </p>
+            <div class="d-flex gap-2 mt-auto">
+              <a
+                target="_blank"
+                href="https://volpe-opal.vercel.app/"
+                class="btn btn-primary btn-sm d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-box-arrow-up-right me-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.364 13.657a.5.5 0 0 1-.708 0l-5.657-5.657a.5.5 0 0 1 0-.708l5.657-5.657a.5.5 0 0 1 .708.708L1.707 7.5H15.5a.5.5 0 0 1 0 1H1.707l4.657 4.657a.5.5 0 0 1 0 .708z"
+                  />
+                </svg>
+                Site
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/volpebits/Old_Volpe"
+                class="btn btn-outline-dark btn-sm d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github me-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Segundo projeto -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div
+            class="card p-3 h-100 d-flex flex-column justify-content-between align-items-center shadow-sm project-card"
+          >
+            <img
+              class="img-thumbnail mb-2"
+              src="/images/saferoute.png"
+              alt="Imagem de prévia do site bar da clarice"
+              style="
+                border-radius: 14px;
+                object-fit: cover;
+                height: 160px;
+                width: 100%;
+              "
+            />
+            <h3 class="fs-4 mt-2 mb-1 text-center fw-bold">SafeRoute</h3>
+            <div class="mb-2">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-info text-dark">CSS</span>
+            </div>
+            <p class="px-2 text-center small">
+              SafeRoute é um protótipo feito para o Global Solutions que deve
+              ter continuidade ao longo do ano. É uma aplicação web criada para
+              ajudar comunidades afetadas por enchentes, oferecendo mapas
+              interativos das áreas de risco, rotas seguras de evacuação,
+              localização de abrigos próximos e alertas em tempo real. O sistema
+              é acessível, responsivo e inclui recursos de inclusão, como
+              tradução para Libras. Nosso foco é salvar vidas, facilitando
+              decisões rápidas e seguras em situações de emergência.
+            </p>
+            <div class="d-flex gap-2 mt-auto">
+              <a
+                target="_blank"
+                href="https://safe-route-two.vercel.app/"
+                class="btn btn-primary btn-sm d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-box-arrow-up-right me-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.364 13.657a.5.5 0 0 1-.708 0l-5.657-5.657a.5.5 0 0 1 0-.708l5.657-5.657a.5.5 0 0 1 .708.708L1.707 7.5H15.5a.5.5 0 0 1 0 1H1.707l4.657 4.657a.5.5 0 0 1 0 .708z"
+                  />
+                </svg>
+                Site
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/volpebits/safeRoute"
+                class="btn btn-outline-dark btn-sm d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github me-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Terceiro projeto -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div
+            class="card p-3 h-100 d-flex flex-column justify-content-between align-items-center shadow-sm project-card"
+          >
+            <img
+              class="img-thumbnail mb-2"
+              src="/images/volpe2.png"
+              alt="Imagem de prévia do site Volpebits"
+              style="
+                border-radius: 14px;
+                object-fit: cover;
+                height: 160px;
+                width: 100%;
+              "
+            />
+            <h3 class="fs-4 mt-2 mb-1 text-center fw-bold">Volpe</h3>
+            <div class="mb-2">
+              <span class="badge bg-dark">Next.js</span>
+              <span class="badge bg-info text-dark">Tailwind</span>
+              <span class="badge bg-warning text-dark">JavaScript</span>
+              <span class="badge bg-success">Vercel</span>
+              <span class="badge bg-primary">React</span>
+            </div>
+            <p class="px-2 text-center small">
+              Atualmente, o Projeto Volpe está em uma nova fase, utilizando
+              Next.js, Tailwind CSS e outras tecnologias modernas para garantir
+              alto desempenho, responsividade e acessibilidade. O projeto
+              evoluiu para oferecer uma experiência de usuário mais fluida e
+              adaptada a diferentes dispositivos, mantendo o foco na divulgação
+              de jogos brasileiros por meio de uma newsletter dinâmica.
+            </p>
+            <div class="d-flex gap-2 mt-auto">
+              <a
+                target="_blank"
+                href="https://volpe-eight.vercel.app/"
+                class="btn btn-primary btn-sm d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-box-arrow-up-right me-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.364 13.657a.5.5 0 0 1-.708 0l-5.657-5.657a.5.5 0 0 1 0-.708l5.657-5.657a.5.5 0 0 1 .708.708L1.707 7.5H15.5a.5.5 0 0 1 0 1H1.707l4.657 4.657a.5.5 0 0 1 0 .708z"
+                  />
+                </svg>
+                Site
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/volpebits/newVolpe"
+                class="btn btn-outline-dark btn-sm d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github me-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="contacts">Contatos</h2>
+      <div class="row pb-3 g-3 mx-auto">
+        <div class="col-12 col-sm-6 col-md-3">
+          <a
+            target="_blank"
+            class="contact-link"
+            href="https://www.instagram.com/fabio_arauju/"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg"
+              width="32"
+              height="32"
+              class="contact-icon"
+              alt="Instagram"
+              style="
+                background: radial-gradient(
+                  circle at 30% 107%,
+                  #fdf497 0%,
+                  #fdf497 5%,
+                  #fd5949 45%,
+                  #d6249f 60%,
+                  #285aeb 90%
+                );
+                padding: 6px;
+                border-radius: 50%;
+              "
+            />
+            Instagram
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a
+            target="_blank"
+            class="contact-link"
+            href="https://github.com/fabioarauju"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
+              width="32"
+              height="32"
+              class="contact-icon"
+              alt="Github"
+              style="
+                background: #fff;
+                padding: 6px;
+                border-radius: 50%;
+                border: 1px solid #eee;
+              "
+            />
+            Github
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a
+            target="_blank"
+            class="contact-link"
+            href="https://www.linkedin.com/in/dev-fabio-araujo"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg"
+              width="32"
+              height="32"
+              class="contact-icon"
+              alt="Linkedin"
+              style="background: #0077b5; padding: 6px; border-radius: 50%"
+            />
+            Linkedin
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="contact-link" href="mailto:devfabioaraujo@gmail.com">
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg"
+              width="32"
+              height="32"
+              class="contact-icon"
+              alt="E-mail"
+              style="
+                background: #fff;
+                padding: 6px;
+                border-radius: 50%;
+                border: 1px solid #eee;
+              "
+            />
+            E-mail
+          </a>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
